@@ -12,7 +12,7 @@ KITSU_HEADERS = {
 
 ANILIST_HEADERS = {"Authorization": f"Bearer {ANILIST_TOKEN}"}
 
-KITSU_USER_ID = 18630    # Replace with your Kitsu user ID, obtained via api.
+KITSU_USER_ID = 0    # Replace with your Kitsu user ID, obtained via api.
 
 
 def fetch_kitsu_library(user_id):
